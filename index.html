@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="login">Login</label>
+            <input type="text" id="login">
+            <div id="login-error" class="error-message" style="display: none;"></div>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <div id="password-error" class="error-message" style="display: none;"></div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <div id="email-error" class="error-message" style="display: none;"></div>
+        </div>
+        <div id="gender-group">
+            <label><input type="radio" id="male-label" name="gender"> Male</label>
+            <label><input type="radio" id="female-label" name="gender"> Female</label>
+            <div id="gender-error" class="error-message" style="display: none;"></div>
+        </div>
+        <div>
+            <label><input type="checkbox" id="checkBox">Check this box</label>
+            <div id="checkbox-error" class="error-message" style="display: none;"></div>
+        </div>
+        <button id="registerButton" disabled>Register</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

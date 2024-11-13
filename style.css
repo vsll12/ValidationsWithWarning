@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* form{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+} */
+
+.error-message {
+    color: red;
+    margin-top: 4px;
+}
+
+div{
+    margin-top: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    width: 100px;
+}
